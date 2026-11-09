@@ -5,7 +5,7 @@ for(const mobile of [false,true]){
  const context=await browser.newContext(mobile?{...devices['Pixel 7']}:{viewport:{width:1440,height:1100}});
  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(process.env.TEST_URL||'http://localhost:5173/');await page.waitForTimeout(800);
- await page.locator('#pause').click();await page.locator('#reset').click();assert.equal(await page.locator('#total').textContent(),'100');
+ await page.locator('#pause').click();await page.locator('#reset').click();assert.equal(await page.locator('#total').textContent(),'100');assert.equal(await page.locator('#species-statistics tr').count(),9);assert.match(await page.locator('#species-statistics').textContent(),/Длительность жизни/);
  await page.locator('[data-tool="herbivore"]').click();const canvas=page.locator('#world');const box=await canvas.boundingBox();
  if(mobile)await page.touchscreen.tap(box.x+box.width/2,box.y+box.height/2);else await canvas.click({position:{x:box.width/2,y:box.height/2}});
  assert.equal(await page.locator('#total').textContent(),'101');

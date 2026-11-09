@@ -1,0 +1,1350 @@
+{
+  "mode": "metabolism-trial",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "dt": 0.03333333333333333,
+  "conditions": {
+    "temperature": 22,
+    "abundance": 65,
+    "mutation": 12
+  },
+  "balance": {
+    "predatorSpeed": 1.16,
+    "escapeSpeed": 1.25,
+    "predatorMetabolism": 1.2,
+    "predatorFertilityOffset": 0
+  },
+  "runs": [
+    {
+      "seed": 1,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 114,
+            "deaths": {
+              "starvation": 3,
+              "oldAge": 0,
+              "predation": 122,
+              "disaster": 0
+            },
+            "totalLifespan": 3063.8000000000175,
+            "energySpent": 11276.895146064991,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 74,
+            "meanEnergy": 85.41290996693505,
+            "meanAge": 37.879729729729526,
+            "meanLifespan": 24.51040000000014
+          },
+          "predator": {
+            "hunts": 122,
+            "births": 34,
+            "deaths": {
+              "starvation": 2,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 97.53333333333292,
+            "energySpent": 3588.7886155537767,
+            "huntEnergy": 6252.437005339634,
+            "pursuitSeconds": 1104.4333333329862,
+            "population": 47,
+            "meanEnergy": 76.71776138939974,
+            "meanAge": 32.91134751773039,
+            "meanLifespan": 48.76666666666646
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 275,
+            "deaths": {
+              "starvation": 6,
+              "oldAge": 0,
+              "predation": 276,
+              "disaster": 0
+            },
+            "totalLifespan": 9312.033333333286,
+            "energySpent": 24818.799478521814,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 78,
+            "meanEnergy": 96.26951732411119,
+            "meanAge": 39.02991452991412,
+            "meanLifespan": 33.02139479905421
+          },
+          "predator": {
+            "hunts": 276,
+            "births": 71,
+            "deaths": {
+              "starvation": 69,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4573.233333333249,
+            "energySpent": 12626.981873248851,
+            "huntEnergy": 13728.738997330518,
+            "pursuitSeconds": 2965.3666666646272,
+            "population": 17,
+            "meanEnergy": 94.26229286556959,
+            "meanAge": 56.85490196078291,
+            "meanLifespan": 66.27874396135144
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 379,
+            "deaths": {
+              "starvation": 12,
+              "oldAge": 0,
+              "predation": 432,
+              "disaster": 0
+            },
+            "totalLifespan": 15850.799999999877,
+            "energySpent": 33817.579677974005,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 20,
+            "meanEnergy": 195.18197138557892,
+            "meanAge": 29.533333333333154,
+            "meanLifespan": 35.699999999999726
+          },
+          "predator": {
+            "hunts": 432,
+            "births": 123,
+            "deaths": {
+              "starvation": 128,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 8806.366666666514,
+            "energySpent": 22520.467011532714,
+            "huntEnergy": 23234.593036577557,
+            "pursuitSeconds": 4355.00000000023,
+            "population": 10,
+            "meanEnergy": 59.28845911066374,
+            "meanAge": 78.22666666666433,
+            "meanLifespan": 68.79973958333214
+          }
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 117,
+            "deaths": {
+              "starvation": 1,
+              "oldAge": 0,
+              "predation": 108,
+              "disaster": 0
+            },
+            "totalLifespan": 2660.30000000002,
+            "energySpent": 11478.097150095557,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 93,
+            "meanEnergy": 86.64700865254893,
+            "meanAge": 33.552688172042835,
+            "meanLifespan": 24.40642201834881
+          },
+          "predator": {
+            "hunts": 108,
+            "births": 33,
+            "deaths": {
+              "starvation": 3,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 127.63333333333378,
+            "energySpent": 4012.3170102694826,
+            "huntEnergy": 6359.913866279103,
+            "pursuitSeconds": 1279.2333333328272,
+            "population": 45,
+            "meanEnergy": 73.370891931805,
+            "meanAge": 35.57333333333322,
+            "meanLifespan": 42.54444444444459
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 273,
+            "deaths": {
+              "starvation": 17,
+              "oldAge": 0,
+              "predation": 290,
+              "disaster": 0
+            },
+            "totalLifespan": 11750.133333333213,
+            "energySpent": 27733.82413695602,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 51,
+            "meanEnergy": 110.67433427750102,
+            "meanAge": 33.98235294117605,
+            "meanLifespan": 38.27404994571079
+          },
+          "predator": {
+            "hunts": 290,
+            "births": 81,
+            "deaths": {
+              "starvation": 65,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4229.233333333255,
+            "energySpent": 14132.073067387439,
+            "huntEnergy": 16292.964576741064,
+            "pursuitSeconds": 4165.133333331146,
+            "population": 31,
+            "meanEnergy": 81.9863650831953,
+            "meanAge": 50.72365591397733,
+            "meanLifespan": 65.06512820512701
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 321,
+            "deaths": {
+              "starvation": 20,
+              "oldAge": 0,
+              "predation": 386,
+              "disaster": 0
+            },
+            "totalLifespan": 15224.233333333166,
+            "energySpent": 31735.197448792667,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 37.498111658456075
+          },
+          "predator": {
+            "hunts": 386,
+            "births": 116,
+            "deaths": {
+              "starvation": 131,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 8402.666666666513,
+            "energySpent": 22316.758268199304,
+            "huntEnergy": 22352.565878048576,
+            "pursuitSeconds": 4892.033333340401,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 64.14249363867567
+          }
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 124,
+            "deaths": {
+              "starvation": 4,
+              "oldAge": 0,
+              "predation": 109,
+              "disaster": 0
+            },
+            "totalLifespan": 2832.066666666681,
+            "energySpent": 12684.964913767253,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 96,
+            "meanEnergy": 78.26182533470778,
+            "meanAge": 38.2149305555554,
+            "meanLifespan": 25.06253687315647
+          },
+          "predator": {
+            "hunts": 109,
+            "births": 25,
+            "deaths": {
+              "starvation": 2,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 93.89999999999979,
+            "energySpent": 3235.9157268853432,
+            "huntEnergy": 5285.110283992322,
+            "pursuitSeconds": 1042.599999999709,
+            "population": 38,
+            "meanEnergy": 81.56029299517054,
+            "meanAge": 34.80701754385945,
+            "meanLifespan": 46.949999999999896
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 219,
+            "deaths": {
+              "starvation": 14,
+              "oldAge": 0,
+              "predation": 265,
+              "disaster": 0
+            },
+            "totalLifespan": 10619.766666666563,
+            "energySpent": 22318.772231433904,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 25,
+            "meanEnergy": 129.75393312180358,
+            "meanAge": 21.898666666666585,
+            "meanLifespan": 38.063679808840725
+          },
+          "predator": {
+            "hunts": 265,
+            "births": 73,
+            "deaths": {
+              "starvation": 74,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4435.399999999928,
+            "energySpent": 13226.737232023856,
+            "huntEnergy": 13688.592026689339,
+            "pursuitSeconds": 2669.999999998229,
+            "population": 14,
+            "meanEnergy": 67.07424028376703,
+            "meanAge": 66.88333333333132,
+            "meanLifespan": 59.93783783783686
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 380,
+            "deaths": {
+              "starvation": 14,
+              "oldAge": 1,
+              "predation": 401,
+              "disaster": 0
+            },
+            "totalLifespan": 14757.666666666533,
+            "energySpent": 32904.38885839422,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 49,
+            "meanEnergy": 120.85183479067747,
+            "meanAge": 32.296598639455404,
+            "meanLifespan": 35.475160256409936
+          },
+          "predator": {
+            "hunts": 401,
+            "births": 114,
+            "deaths": {
+              "starvation": 98,
+              "oldAge": 3,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 6347.766666666548,
+            "energySpent": 19055.2666077302,
+            "huntEnergy": 21853.43837271847,
+            "pursuitSeconds": 3626.3999999973594,
+            "population": 28,
+            "meanEnergy": 93.60175784364534,
+            "meanAge": 37.30952380952328,
+            "meanLifespan": 62.84917491749058
+          }
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 123,
+            "deaths": {
+              "starvation": 5,
+              "oldAge": 0,
+              "predation": 67,
+              "disaster": 0
+            },
+            "totalLifespan": 1882.3666666666745,
+            "energySpent": 14334.058962065432,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 136,
+            "meanEnergy": 80.6984280278989,
+            "meanAge": 41.19191176470571,
+            "meanLifespan": 26.14398148148159
+          },
+          "predator": {
+            "hunts": 67,
+            "births": 17,
+            "deaths": {
+              "starvation": 8,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 372.5333333333327,
+            "energySpent": 2738.707113062556,
+            "huntEnergy": 3484.432294743673,
+            "pursuitSeconds": 961.5999999997828,
+            "population": 24,
+            "meanEnergy": 78.8286123283015,
+            "meanAge": 35.70555555555536,
+            "meanLifespan": 46.566666666666585
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 273,
+            "deaths": {
+              "starvation": 43,
+              "oldAge": 0,
+              "predation": 225,
+              "disaster": 0
+            },
+            "totalLifespan": 15689.733333333017,
+            "energySpent": 40046.462333636744,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 90,
+            "meanEnergy": 83.10804610294922,
+            "meanAge": 50.07740740740641,
+            "meanLifespan": 58.54378109452618
+          },
+          "predator": {
+            "hunts": 225,
+            "births": 56,
+            "deaths": {
+              "starvation": 46,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 2955.3999999999482,
+            "energySpent": 10660.356882123862,
+            "huntEnergy": 11699.13711214313,
+            "pursuitSeconds": 2841.933333331406,
+            "population": 25,
+            "meanEnergy": 68.72872662734495,
+            "meanAge": 69.49733333333157,
+            "meanLifespan": 64.2478260869554
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 458,
+            "deaths": {
+              "starvation": 65,
+              "oldAge": 0,
+              "predation": 404,
+              "disaster": 0
+            },
+            "totalLifespan": 26697.899999999434,
+            "energySpent": 61238.43377279369,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 74,
+            "meanEnergy": 91.22461256754079,
+            "meanAge": 47.08063063062966,
+            "meanLifespan": 56.925159914710946
+          },
+          "predator": {
+            "hunts": 404,
+            "births": 105,
+            "deaths": {
+              "starvation": 85,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 6210.466666666526,
+            "energySpent": 19418.52517806175,
+            "huntEnergy": 21413.11416065273,
+            "pursuitSeconds": 4975.0000000081245,
+            "population": 35,
+            "meanEnergy": 59.640968702647996,
+            "meanAge": 59.44952380952236,
+            "meanLifespan": 73.06431372548855
+          }
+        }
+      ]
+    },
+    {
+      "seed": 5,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 131,
+            "deaths": {
+              "starvation": 4,
+              "oldAge": 0,
+              "predation": 83,
+              "disaster": 0
+            },
+            "totalLifespan": 2313.033333333344,
+            "energySpent": 14689.75597698166,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 129,
+            "meanEnergy": 71.6528803070339,
+            "meanAge": 40.91111111111097,
+            "meanLifespan": 26.586590038314302
+          },
+          "predator": {
+            "hunts": 83,
+            "births": 19,
+            "deaths": {
+              "starvation": 8,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 355.63333333333316,
+            "energySpent": 2828.8421944873962,
+            "huntEnergy": 3855.173621762324,
+            "pursuitSeconds": 1090.9333333329985,
+            "population": 26,
+            "meanEnergy": 82.64141393087674,
+            "meanAge": 35.42435897435879,
+            "meanLifespan": 44.454166666666644
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 258,
+            "deaths": {
+              "starvation": 17,
+              "oldAge": 0,
+              "predation": 304,
+              "disaster": 0
+            },
+            "totalLifespan": 13703.399999999843,
+            "energySpent": 28824.5596849583,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 22,
+            "meanEnergy": 144.4804875208874,
+            "meanAge": 33.79545454545405,
+            "meanLifespan": 42.68971962616774
+          },
+          "predator": {
+            "hunts": 304,
+            "births": 66,
+            "deaths": {
+              "starvation": 55,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 3889.299999999917,
+            "energySpent": 13229.774944312992,
+            "huntEnergy": 14282.720180298218,
+            "pursuitSeconds": 3918.333333330427,
+            "population": 26,
+            "meanEnergy": 62.04455298197417,
+            "meanAge": 64.5846153846138,
+            "meanLifespan": 70.71454545454394
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 278,
+            "deaths": {
+              "starvation": 17,
+              "oldAge": 0,
+              "predation": 346,
+              "disaster": 0
+            },
+            "totalLifespan": 14996.499999999829,
+            "energySpent": 29987.238427747223,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 41.31267217630807
+          },
+          "predator": {
+            "hunts": 346,
+            "births": 79,
+            "deaths": {
+              "starvation": 94,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 6925.066666666508,
+            "energySpent": 16803.969698463337,
+            "huntEnergy": 16398.003187468497,
+            "pursuitSeconds": 4080.699999996946,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 73.67092198581392
+          }
+        }
+      ]
+    },
+    {
+      "seed": 6,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 129,
+            "deaths": {
+              "starvation": 2,
+              "oldAge": 0,
+              "predation": 120,
+              "disaster": 0
+            },
+            "totalLifespan": 2833.5000000000196,
+            "energySpent": 11791.404897567889,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 92,
+            "meanEnergy": 88.4311379458185,
+            "meanAge": 34.60543478260858,
+            "meanLifespan": 23.225409836065733
+          },
+          "predator": {
+            "hunts": 120,
+            "births": 29,
+            "deaths": {
+              "starvation": 4,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 149.86666666666804,
+            "energySpent": 3758.51495986759,
+            "huntEnergy": 5982.349260423984,
+            "pursuitSeconds": 1249.5999999995208,
+            "population": 40,
+            "meanEnergy": 80.64801804559058,
+            "meanAge": 37.59333333333315,
+            "meanLifespan": 37.46666666666701
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 204,
+            "deaths": {
+              "starvation": 12,
+              "oldAge": 0,
+              "predation": 260,
+              "disaster": 0
+            },
+            "totalLifespan": 8948.43333333329,
+            "energySpent": 19554.230881835927,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 17,
+            "meanEnergy": 126.70363106129876,
+            "meanAge": 33.07647058823471,
+            "meanLifespan": 32.89865196078416
+          },
+          "predator": {
+            "hunts": 260,
+            "births": 67,
+            "deaths": {
+              "starvation": 77,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 5212.933333333231,
+            "energySpent": 13544.910089215444,
+            "huntEnergy": 13127.135802680312,
+            "pursuitSeconds": 2362.7999999985086,
+            "population": 5,
+            "meanEnergy": 26.260816825583426,
+            "meanAge": 107.19333333332982,
+            "meanLifespan": 67.70043290043157
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 368,
+            "deaths": {
+              "starvation": 84,
+              "oldAge": 0,
+              "predation": 260,
+              "disaster": 0
+            },
+            "totalLifespan": 13295.099999999899,
+            "energySpent": 53141.3259928124,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 109,
+            "meanEnergy": 60.288878266214525,
+            "meanAge": 72.07675840978412,
+            "meanLifespan": 38.648546511627615
+          },
+          "predator": {
+            "hunts": 260,
+            "births": 67,
+            "deaths": {
+              "starvation": 82,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 5803.23333333321,
+            "energySpent": 13676.30564874605,
+            "huntEnergy": 13127.135802680312,
+            "pursuitSeconds": 2362.7999999985086,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 70.7711382113806
+          }
+        }
+      ]
+    },
+    {
+      "seed": 7,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 109,
+            "deaths": {
+              "starvation": 0,
+              "oldAge": 0,
+              "predation": 156,
+              "disaster": 0
+            },
+            "totalLifespan": 3564.3333333333553,
+            "energySpent": 9212.05817025543,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 38,
+            "meanEnergy": 100.33375111017288,
+            "meanAge": 32.9894736842104,
+            "meanLifespan": 22.84829059829074
+          },
+          "predator": {
+            "hunts": 156,
+            "births": 41,
+            "deaths": {
+              "starvation": 4,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 169.03333333333399,
+            "energySpent": 4597.438299315701,
+            "huntEnergy": 7778.922901286914,
+            "pursuitSeconds": 1390.4999999993927,
+            "population": 52,
+            "meanEnergy": 77.68433840475008,
+            "meanAge": 34.142948717948634,
+            "meanLifespan": 42.258333333333496
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 117,
+            "deaths": {
+              "starvation": 1,
+              "oldAge": 0,
+              "predation": 201,
+              "disaster": 0
+            },
+            "totalLifespan": 5233.233333333341,
+            "energySpent": 10032.145622486712,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 25.907095709570996
+          },
+          "predator": {
+            "hunts": 201,
+            "births": 60,
+            "deaths": {
+              "starvation": 75,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4772.099999999918,
+            "energySpent": 11376.085534845164,
+            "huntEnergy": 10743.18147983241,
+            "pursuitSeconds": 1907.7999999989222,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 63.6279999999989
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 117,
+            "deaths": {
+              "starvation": 1,
+              "oldAge": 0,
+              "predation": 201,
+              "disaster": 0
+            },
+            "totalLifespan": 5233.233333333341,
+            "energySpent": 10032.145622486712,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 25.907095709570996
+          },
+          "predator": {
+            "hunts": 201,
+            "births": 60,
+            "deaths": {
+              "starvation": 75,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4772.099999999918,
+            "energySpent": 11376.085534845164,
+            "huntEnergy": 10743.18147983241,
+            "pursuitSeconds": 1907.7999999989222,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 63.6279999999989
+          }
+        }
+      ]
+    },
+    {
+      "seed": 8,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 117,
+            "deaths": {
+              "starvation": 3,
+              "oldAge": 0,
+              "predation": 142,
+              "disaster": 0
+            },
+            "totalLifespan": 3459.666666666682,
+            "energySpent": 10304.157003514498,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 57,
+            "meanEnergy": 92.21434322100137,
+            "meanAge": 33.5906432748537,
+            "meanLifespan": 23.859770114942634
+          },
+          "predator": {
+            "hunts": 142,
+            "births": 34,
+            "deaths": {
+              "starvation": 5,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 214.73333333333395,
+            "energySpent": 4130.528871513617,
+            "huntEnergy": 7180.13826377508,
+            "pursuitSeconds": 1296.9666666661444,
+            "population": 44,
+            "meanEnergy": 90.72320216224874,
+            "meanAge": 34.47727272727265,
+            "meanLifespan": 42.946666666666786
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 168,
+            "deaths": {
+              "starvation": 5,
+              "oldAge": 0,
+              "predation": 239,
+              "disaster": 0
+            },
+            "totalLifespan": 7244.733333333305,
+            "energySpent": 14795.888302890056,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 9,
+            "meanEnergy": 239.34471556546407,
+            "meanAge": 29.644444444444098,
+            "meanLifespan": 29.691530054644694
+          },
+          "predator": {
+            "hunts": 239,
+            "births": 62,
+            "deaths": {
+              "starvation": 71,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4623.466666666582,
+            "energySpent": 12155.83390159691,
+            "huntEnergy": 11966.461613520965,
+            "pursuitSeconds": 2105.1333333320763,
+            "population": 6,
+            "meanEnergy": 69.9715246420941,
+            "meanAge": 33.816666666666315,
+            "meanLifespan": 65.11924882628988
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 374,
+            "deaths": {
+              "starvation": 12,
+              "oldAge": 1,
+              "predation": 333,
+              "disaster": 0
+            },
+            "totalLifespan": 11183.333333333267,
+            "energySpent": 32749.197978202297,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 113,
+            "meanEnergy": 85.31504032867514,
+            "meanAge": 38.98141592920319,
+            "meanLifespan": 32.321772639691524
+          },
+          "predator": {
+            "hunts": 333,
+            "births": 82,
+            "deaths": {
+              "starvation": 77,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 5073.599999999903,
+            "energySpent": 15703.945227456046,
+            "huntEnergy": 16857.894032916553,
+            "pursuitSeconds": 3023.199999997908,
+            "population": 20,
+            "meanEnergy": 76.17576396562146,
+            "meanAge": 43.57833333333285,
+            "meanLifespan": 65.89090909090783
+          }
+        }
+      ]
+    },
+    {
+      "seed": 9,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 117,
+            "deaths": {
+              "starvation": 3,
+              "oldAge": 0,
+              "predation": 131,
+              "disaster": 0
+            },
+            "totalLifespan": 3107.40000000001,
+            "energySpent": 11037.220465132308,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 68,
+            "meanEnergy": 86.1837920122747,
+            "meanAge": 38.197058823529275,
+            "meanLifespan": 23.189552238806044
+          },
+          "predator": {
+            "hunts": 131,
+            "births": 35,
+            "deaths": {
+              "starvation": 5,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 236.36666666666605,
+            "energySpent": 4082.336787253998,
+            "huntEnergy": 6890.9637929623805,
+            "pursuitSeconds": 1144.999999999616,
+            "population": 45,
+            "meanEnergy": 83.0857377439523,
+            "meanAge": 33.37185185185178,
+            "meanLifespan": 47.27333333333321
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 192,
+            "deaths": {
+              "starvation": 10,
+              "oldAge": 0,
+              "predation": 259,
+              "disaster": 0
+            },
+            "totalLifespan": 9044.433333333256,
+            "energySpent": 18069.492723490246,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 8,
+            "meanEnergy": 165.17581339656184,
+            "meanAge": 22.475000000000048,
+            "meanLifespan": 33.622428748450766
+          },
+          "predator": {
+            "hunts": 259,
+            "births": 69,
+            "deaths": {
+              "starvation": 69,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4692.633333333242,
+            "energySpent": 13952.365993120118,
+            "huntEnergy": 14010.713747740221,
+            "pursuitSeconds": 2583.6999999983077,
+            "population": 15,
+            "meanEnergy": 38.89692904996559,
+            "meanAge": 71.2799999999983,
+            "meanLifespan": 68.00917874396004
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 391,
+            "deaths": {
+              "starvation": 28,
+              "oldAge": 0,
+              "predation": 259,
+              "disaster": 0
+            },
+            "totalLifespan": 10090.033333333244,
+            "energySpent": 43657.98376380394,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 189,
+            "meanEnergy": 67.05672239999684,
+            "meanAge": 60.696296296295195,
+            "meanLifespan": 35.15691056910538
+          },
+          "predator": {
+            "hunts": 259,
+            "births": 69,
+            "deaths": {
+              "starvation": 84,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 5996.999999999873,
+            "energySpent": 14536.405699103525,
+            "huntEnergy": 14010.713747740221,
+            "pursuitSeconds": 2583.6999999983077,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 71.39285714285563
+          }
+        }
+      ]
+    },
+    {
+      "seed": 10,
+      "checkpoints": [
+        {
+          "seconds": 60,
+          "herbivore": {
+            "hunts": 0,
+            "births": 120,
+            "deaths": {
+              "starvation": 0,
+              "oldAge": 0,
+              "predation": 149,
+              "disaster": 0
+            },
+            "totalLifespan": 3743.600000000025,
+            "energySpent": 10428.405001169038,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 56,
+            "meanEnergy": 87.5557133716546,
+            "meanAge": 33.9874999999999,
+            "meanLifespan": 25.124832214765267
+          },
+          "predator": {
+            "hunts": 149,
+            "births": 38,
+            "deaths": {
+              "starvation": 2,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 68.53333333333404,
+            "energySpent": 4028.456092375521,
+            "huntEnergy": 7417.5860200632,
+            "pursuitSeconds": 1121.9666666663036,
+            "population": 51,
+            "meanEnergy": 83.98496830569513,
+            "meanAge": 33.04052287581689,
+            "meanLifespan": 34.26666666666702
+          }
+        },
+        {
+          "seconds": 180,
+          "herbivore": {
+            "hunts": 0,
+            "births": 134,
+            "deaths": {
+              "starvation": 0,
+              "oldAge": 0,
+              "predation": 219,
+              "disaster": 0
+            },
+            "totalLifespan": 6326.3666666666695,
+            "energySpent": 11774.030869849612,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 28.887519025875203
+          },
+          "predator": {
+            "hunts": 219,
+            "births": 63,
+            "deaths": {
+              "starvation": 78,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4937.599999999913,
+            "energySpent": 11704.84427533288,
+            "huntEnergy": 11107.728275806103,
+            "pursuitSeconds": 1674.466666665801,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 63.30256410256299
+          }
+        },
+        {
+          "seconds": 300,
+          "herbivore": {
+            "hunts": 0,
+            "births": 134,
+            "deaths": {
+              "starvation": 0,
+              "oldAge": 0,
+              "predation": 219,
+              "disaster": 0
+            },
+            "totalLifespan": 6326.3666666666695,
+            "energySpent": 11774.030869849612,
+            "huntEnergy": 0,
+            "pursuitSeconds": 0,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 28.887519025875203
+          },
+          "predator": {
+            "hunts": 219,
+            "births": 63,
+            "deaths": {
+              "starvation": 78,
+              "oldAge": 0,
+              "predation": 0,
+              "disaster": 0
+            },
+            "totalLifespan": 4937.599999999913,
+            "energySpent": 11704.84427533288,
+            "huntEnergy": 11107.728275806103,
+            "pursuitSeconds": 1674.466666665801,
+            "population": 0,
+            "meanEnergy": null,
+            "meanAge": null,
+            "meanLifespan": 63.30256410256299
+          }
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "seconds": 60,
+      "herbivore": {
+        "population": 83.9,
+        "min": 38,
+        "max": 136,
+        "extinctRuns": 0,
+        "hunts": 0,
+        "births": 120.1,
+        "starvation": 2.5,
+        "oldAge": 0,
+        "meanEnergy": 83.52592699430285,
+        "meanLifespan": 24.30698569856999,
+        "energySpent": 11723.701768661407,
+        "huntEnergy": 0,
+        "pursuitSeconds": 0
+      },
+      "predator": {
+        "population": 41.2,
+        "min": 24,
+        "max": 52,
+        "extinctRuns": 0,
+        "hunts": 118.7,
+        "births": 30.5,
+        "starvation": 4.3,
+        "oldAge": 0,
+        "meanEnergy": 80.89004444225583,
+        "meanLifespan": 43.85503875968996,
+        "energySpent": 3700.1845670584976,
+        "huntEnergy": 6048.702731062862,
+        "pursuitSeconds": 1168.2833333329281
+      }
+    },
+    {
+      "seconds": 180,
+      "herbivore": {
+        "population": 30,
+        "min": 0,
+        "max": 90,
+        "extinctRuns": 2,
+        "hunts": 0,
+        "births": 211.3,
+        "starvation": 12.5,
+        "oldAge": 0,
+        "meanEnergy": 108.95009092502339,
+        "meanLifespan": 36.752634872949976,
+        "energySpent": 21796.820626605935,
+        "huntEnergy": 0,
+        "pursuitSeconds": 0
+      },
+      "predator": {
+        "population": 13.9,
+        "min": 0,
+        "max": 31,
+        "extinctRuns": 2,
+        "hunts": 253.8,
+        "births": 66.8,
+        "starvation": 67.9,
+        "oldAge": 0,
+        "meanEnergy": 68.69812497274383,
+        "meanLifespan": 65.27437407952752,
+        "energySpent": 12660.996379320753,
+        "huntEnergy": 13064.737381278228,
+        "pursuitSeconds": 2719.4666666649455
+      }
+    },
+    {
+      "seconds": 300,
+      "herbivore": {
+        "population": 55.4,
+        "min": 0,
+        "max": 189,
+        "extinctRuns": 4,
+        "hunts": 0,
+        "births": 320,
+        "starvation": 25.3,
+        "oldAge": 0.2,
+        "meanEnergy": 82.06102614478317,
+        "meanLifespan": 38.23088291380585,
+        "energySpent": 34103.75224128568,
+        "huntEnergy": 0,
+        "pursuitSeconds": 0
+      },
+      "predator": {
+        "population": 9.3,
+        "min": 0,
+        "max": 35,
+        "extinctRuns": 6,
+        "hunts": 324.1,
+        "births": 87.8,
+        "starvation": 93.2,
+        "oldAge": 0.3,
+        "meanEnergy": 73.3836881143421,
+        "meanLifespan": 67.67472370766356,
+        "energySpent": 16711.25731494709,
+        "huntEnergy": 17109.836797444143,
+        "pursuitSeconds": 3348.1100000002507
+      }
+    }
+  ]
+}
